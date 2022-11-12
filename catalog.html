@@ -7,8 +7,8 @@
     <body>
         <header class="catalog-header">
             <a href="index.html" class="main-header-logo">Техномарт</a>
-            <form class="search-form" method="post" action="#">
-                <input type="text" name="user-search" placeholder="Поиск: ">
+            <form class="search-form" method="get" action="#">
+                <input type="text" name="user-search" placeholder="Поиск: " aria-label="Поиск">
             </form>
             <a href="#">Закладки: </a>
             <a href="#">Корзина: </a>
@@ -59,7 +59,7 @@
             </section>
             <section class="catalog-filters">
                 <h2 class="filters">Фильтры: </h2>
-                <form class="price-filter" method="post" action="#">
+                <form class="price-filter" method="get" action="#">
                     <fieldset>
                         <legend>Цена: </legend>
                         <label>
@@ -78,7 +78,7 @@
                                 <label for="filter-INTERSKOL">ИНТЕРСКОЛ</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="BOSCH" id="filter-MAKITA">
+                                <input type="checkbox" name="MAKITA" id="filter-MAKITA">
                                 <label for="filter-MAKITA">MAKITA</label>
                             </li>
                             <li>
@@ -95,11 +95,11 @@
                         <legend>Питание:</legend>
                         <ul class="filter-accum">
                             <li>
-                                <input type="radio" name="accum" id="filter-accumulator">
+                                <input type="radio" name="accum" value="АККУМУЛЯТОРНЫЕ" id="filter-accumulator">
                                 <label for="filter-accumulator">АККУМУЛЯТОРНЫЕ</label>
                             </li>
                             <li>
-                                <input type="radio" name="accum" id="filter-mains-supply" >
+                                <input type="radio" name="accum" value="СЕТЕВЫЕ" id="filter-mains-supply" >
                                 <label for="filter-mains-supply">СЕТЕВЫЕ</label>
                             </li>
                         </ul>
@@ -118,6 +118,12 @@
                     </li>
                     <li>
                         <a href="#" class="sorting-button">По функционалу</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sorting-button" aria-label="По возрастанию">По возрастанию</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sorting-button" aria-label="По убыванию">По убыванию</a>
                     </li>
                 </ul>
                 <ul class="products-list">
@@ -279,7 +285,7 @@
             <h2>Товар добавлен в корзину! </h2>
             <a href="#" class="login-button">Оформить заказ</a>
             <a href="#" class="login-button">Продолжить покупки</a>
-            <button class="modal-close">Закрыть</button>
+            <button class="modal-close" type="button">Закрыть</button>
         </section>
     </body>
 </html>
