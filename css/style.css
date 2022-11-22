@@ -42,7 +42,7 @@ body {
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
-  color: rgb(0, 0, 0);
+  color: #000000;
   background-color: #ffffff;
 }
 
@@ -176,7 +176,6 @@ input[type="radio"].visually-hidden {
   font: inherit;
   font-size: 17px;
   line-height: 18px;
-  font-weight: 400;
   color: #000000;
   background-color: #ffffff;
   border: none;
@@ -186,7 +185,6 @@ input[type="radio"].visually-hidden {
   font: inherit;
   font-size: 17px;
   line-height: 18px;
-  font-weight: 400;
   color: #000000;
   background-color: #ffffff;
   border: none;
@@ -367,7 +365,7 @@ input[type="radio"].visually-hidden {
 .subsection-with-products h2 {
   font-size: 30px;
   line-height: 30px;
-  color: rgb(50, 66, 92);
+  color: #32425c;
 }
 
 .subsection-with-products .button {
@@ -490,7 +488,7 @@ input[type="radio"].visually-hidden {
 
 /* Раздел: Сервисы */
 .service {
-  background-color: rgb(244, 248, 249);
+  background-color: #f4f8f9;
 }
 
 .service h2 {
@@ -610,7 +608,6 @@ input[type="radio"].visually-hidden {
 .contacts h2 {
   font-size: 30px;
   line-height: 30px;
-  font-weight: 400;
   text-transform: uppercase;
   color: #000000;
 }
@@ -690,7 +687,7 @@ input[type="radio"].visually-hidden {
 
 .social-button:hover,
 .social-button:focus {
-  background-color: rgb(237, 53, 67);
+  background-color: #ed3543;
 }
 
 .footer-email span {
@@ -710,7 +707,7 @@ input[type="radio"].visually-hidden {
 
 .footer-email a:focus {
   text-decoration: none;
-  color: rgb(238, 54, 67);
+  color: #ee3643;
 }
 
 /* Раздел: модальные окна*/
@@ -997,7 +994,6 @@ input[type="radio"].visually-hidden {
   font-family: 'Cuprum Regular', Arial, sans-serif;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 400;
   color: #000000;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
